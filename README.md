@@ -27,12 +27,12 @@ symbol and footprint library foe kicad.
 
 ## environment
 put this folder at the same folder as Kicad Project folder.  
-KicadProjectName
-    ├── KicadProjectName
-         ├── KicadProjectName.pro
-         ├── KicadProjectName.kicad_sch  
+KicadProjectName  
+    ├── KicadProjectName  
+         ├── KicadProjectName.pro  
+         ├── KicadProjectName.kicad_sch    
          ├── KicadProjectName.kicad_pcb  
-    ├── KicadExternalLib
+    ├── KicadExternalLib  
 
 <p align="right">(<a href="#top">Back to the top</a>)</p>
 
