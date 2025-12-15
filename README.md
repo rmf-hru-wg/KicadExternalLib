@@ -3,16 +3,16 @@
 
 ## Table of Contents
 1. [about](#about)
-2. [directory construction](#directory construction)
+2. [directory_construction](#directory_construction)
 3. [environment](#environment)
-4. [system structure](#system structure)
-5. [trouble shooting](#trouble shooting)
+4. [system_structure](#system_structure)
+5. [trouble_shooting](#trouble_shooting)
 
 # about
 symbol and footprint library foe kicad.
 <p align="right">(<a href="#top">Back to the top</a>)</p>
 
-## directory construction
+## directory_construction
 <!-- use tree command -->
 - Conn
 - Diode
@@ -36,10 +36,10 @@ KicadProjectName
 
 <p align="right">(<a href="#top">Back to the top</a>)</p>
 
-## system structure
+## system_structure
 Each folder includes symbol library(.lib) and footprint library(.kicad_mod).
 <p align="right">(<a href="#top">Back to the top</a>)</p>
 
-## trouble shooting
+## trouble_shooting
 ?
 <p align="right">(<a href="#top">Back to the top</a>)</p>
