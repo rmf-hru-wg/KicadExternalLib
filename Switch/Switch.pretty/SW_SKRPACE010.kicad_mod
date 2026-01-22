@@ -200,18 +200,18 @@
 		(uuid "b05683c9-14f9-4109-be94-4d97711e2066")
 	)
 	(pad "1" smd rect
-		(at -2.075 1.075)
-		(size 1.05 0.65)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
-		(uuid "a8dd7b27-f6f1-4a27-aee4-2ba907e89e30")
-	)
-	(pad "2" smd rect
 		(at 2.075 -1.075)
 		(size 1.05 0.65)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "4bf903b6-f693-4dfb-b180-50bd4e1eab55")
+	)
+	(pad "2" smd rect
+		(at -2.075 1.075 180)
+		(size 1.05 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "a8dd7b27-f6f1-4a27-aee4-2ba907e89e30")
 	)
 	(pad "2" smd rect
 		(at 2.075 1.075)
@@ -222,6 +222,17 @@
 	)
 	(embedded_fonts no)
 	(model "C:/Users/hibik/Documents/Robomech/HR/E-PIX/ExternalLib/Switch/SKRPACE010.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "C:/Users/hibik/Documents/Robomech/HR/E-PIX/ExternalLib/Switch/3d/SKRPACE010.stp"
 		(offset
 			(xyz 0 0 0)
 		)
