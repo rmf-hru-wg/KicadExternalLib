@@ -1,0 +1,110 @@
+(footprint "2-7M1A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.62 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5948b645-ac18-4e3b-82eb-60c92c636fa1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "2-7M1A"
+		(at 0 6.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f1d39a03-6220-480c-b4a4-b1b181e604fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82dc23aa-5e23-47ba-9a4f-de02ef8f14e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "640c0e1a-3a18-418e-8d26-05626c89d5e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7e4cae9-ea1b-44d7-a502-e6a289c63512")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.81 -6.35)
+		(end 3.81 5.08)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "98cd4dfd-0d9f-4cb3-815e-9ab75ec654bf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "34b25351-1089-4f8c-a67d-81efed2f3374")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -3)
+		(size 6 6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2781db9b-b41b-4239-98d9-80bd68c70497")
+	)
+	(pad "2" smd rect
+		(at -2.3 3.5)
+		(size 1.6 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "cc1eea0f-1070-4d79-b276-8915b873c199")
+	)
+	(pad "3" smd rect
+		(at 2.3 3.5)
+		(size 1.6 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "38d126dc-3303-4b50-ad58-e32c697d7864")
+	)
+)
